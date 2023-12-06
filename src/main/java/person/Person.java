@@ -1,4 +1,6 @@
 package person;
 
-public enum Pers {
+public interface Person {
+    void doWork();
+    void haveRest();
 }
